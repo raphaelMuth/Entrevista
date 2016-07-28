@@ -1,0 +1,15 @@
+Arquivo em mdf do banco Cliente para exportação caso necessario codigo sql da tabela cliente abaixo.
+
+string de conexão Data Source=localhost\sqlexpress;Initial Catalog=Cliente;Integrated Security=True
+
+CREATE TABLE [dbo].[cliente] (
+    [Id]            INT           IDENTITY (1, 1) NOT NULL,
+    [nome]          NVARCHAR (50) NOT NULL,
+    [endereco]      NVARCHAR (50) NOT NULL,
+    [nacionalidade] NVARCHAR (50) NOT NULL,
+    [profissao]     NVARCHAR (50) NOT NULL,
+    [idade]         INT           NOT NULL,
+    [rg]            NVARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    UNIQUE NONCLUSTERED ([rg] ASC)
+);
