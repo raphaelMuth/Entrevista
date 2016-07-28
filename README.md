@@ -5,8 +5,7 @@ O primeiro exercicio foi implementado em c++, sera tambem disponibilizado o exec
 
 Segundo exercicio não implementado
 
-Terceiro exercicio foi implementado um sistema basico com cadastro, alterção, leitura e exclusão (CRUD) de clientes utilizando C#
-e SQL Server e LINQ do ORM Entity Framework
+Terceiro exercicio foi implementado um sistema basico com cadastro, alteração, leitura e exclusão (CRUD) de clientes utilizando C#e SQL Server e LINQ do ORM Entity Framework
 OBS: somente implementada a parte desktop, a parte web ainda esta em processo de desenvolvimento, irei continua-la mesmo apos
 o prazo de entrega, para meu aprendizado.
 
