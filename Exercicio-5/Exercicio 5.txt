@@ -1,0 +1,25 @@
+Exercicio 5.1
+public decimal ObtenhaMontante(decimal capitalInicial, decimal taxaJuro, decimal prazo)
+{
+	decimal montante
+
+	montante = capitalInicial*pow(1+taxajuro/100,prazo)
+
+	return montante
+}
+
+Exercicio 5.2
+O montante seria de R$10927,27.
+
+Exercicio 5.3
+public decimal ObtenhaJuroTotal(decimal montante, decimal capitalInicial)
+{
+	decimal totalJuros;
+	
+	totalJuros = montante - capitalInicial;
+
+	return totalJuros;
+}
+
+Exercicio 5.4
+O valor de juro a pagar no final do emprestimo é de R$927,27.
